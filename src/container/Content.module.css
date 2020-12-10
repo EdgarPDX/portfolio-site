@@ -1,0 +1,6 @@
+.content{
+    display: grid;
+    grid-row: 1fr;
+    justify-items: center;
+    width: 100%;
+}
