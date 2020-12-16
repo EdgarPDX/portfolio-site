@@ -1,0 +1,40 @@
+.gallery{
+    height: 80%;
+    width: 80%;
+    display:grid;
+    grid-template-rows: .5fr 2fr;
+    text-align: center;
+}
+
+.heading{
+    justify-self: flex-start;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    color: white;
+}
+
+.imageContainer{
+    width:100%;
+    align-items: center;
+    display:grid;
+    grid-template-rows: 3fr .5fr;  
+    justify-content: center;
+}
+.buttonContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.galleryImage{
+    height:400px;
+    justify-self: center;
+    align-self: center;
+}
+.button{
+    height:20px;
+    width: 30px;
+    text-align: center;
+}
