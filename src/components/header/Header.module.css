@@ -1,0 +1,65 @@
+
+.headerComponent{
+    display: grid;
+    grid-template-columns: 4fr .5fr;
+    justify-content: flex-end;
+    background-color:transparent; 
+    align-items: center;
+}
+
+.allLinks{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+}
+
+
+.outsideLink{
+    height:40px;
+    width: auto;
+    filter:drop-shadow(4px 4px 8px);
+    color:#1f2421;
+    align-self: baseline;
+
+}
+
+.link{
+    margin:1%;
+    color: white;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 1px#1f2421af;
+    border: none;
+    height: auto;
+    background: transparent;
+    transition:
+      .2s ease-in-out transform,
+      .2s ease-in-out
+      text-shadow;
+    
+}
+.link:hover{
+    transform:scale(1.05);
+    text-shadow: 2px 2px 2px#1f2421a4;
+}
+
+
+.logo {
+    justify-self: flex-end;
+    width: 120px;
+    transform:
+      rotateX(1deg)
+      rotateZ(10deg);
+    transform-style: preserve-3d;
+    filter: saturate(130%) contrast(110%) drop-shadow(12px 10px 8px);
+    transition:
+      .4s ease-in-out transform,
+      .4s ease-in-out filter;
+  
+    }
+.logo:hover {
+    filter: saturate(130%) contrast(110%) drop-shadow(24px 20px 16px);
+}
+

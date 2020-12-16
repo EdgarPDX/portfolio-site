@@ -1,0 +1,37 @@
+.aboutMe{
+    display: grid;
+    grid-template-rows: .5fr 2fr;
+    max-width: 80%;
+}
+.introduction {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color:white;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25em;
+}
+.introductionContent{
+    align-self: center;
+}
+
+
+.profilePhoto{
+    border-radius: 20%;
+    justify-self: flex-end;
+    box-shadow:
+    2px 1px 0 1px #f9f9fb,
+    14px 14px 14px 0  rgba(0, 0, 0, 0.486);
+}
+
+.heading{
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4em;
+    justify-self: flex-start;
+    color: white;
+    text-shadow: 2px 2px 1px#1f2421af;
+}
