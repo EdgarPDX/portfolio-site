@@ -1,0 +1,14 @@
+.outsideLink{
+    height:40px;
+    width: auto;
+    filter:drop-shadow(4px 4px 8px);
+    color:#1f2421;
+    text-align: center;
+
+}
+
+.footerComponent{
+    display: flex;
+    justify-content: center;
+    
+}

@@ -1,32 +1,18 @@
 
 .headerComponent{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    position: fixed;
-    top: 0;
-    left:0;
-    bottom: 0;
-    width: 120px;
-    border-top-right-radius: 2%;
-    border-bottom-right-radius: 2%;
-    background-color: #ffffff; 
-    box-shadow:
-    1px 1px 0 1px #f9f9fb,
-    14px 14px 14px 0  rgba(0, 0, 0, 0.486);
+    grid-template-columns: 4fr .5fr;
+    justify-content: flex-end;
+    background-color:transparent; 
+    align-items: center;
 }
 
 .allLinks{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
+    width: auto;
 }
 
-.contactLinks{
-    display: flex; 
-    align-items: flex-end;
-    flex-direction: row-reverse;
-    justify-content: center   
-}
 
 .outsideLink{
     height:40px;
@@ -38,28 +24,30 @@
 }
 
 .link{
-    color: #1f2421;
+    margin:1%;
+    color: white;
     font-family: mostra-nuova, sans-serif;
     font-weight: 500;
     font-style: normal;
     font-size: 1.5em;
-    text-shadow: 2px 2px 1px#1f24217c;
+    text-shadow: 2px 2px 1px#1f2421af;
     border: none;
     height: auto;
     background: transparent;
     transition:
       .2s ease-in-out transform,
-      .7s ease-in-out
-      tex-shadow;
+      .2s ease-in-out
+      text-shadow;
     
 }
 .link:hover{
     transform:scale(1.05);
-    text-shadow: 2px 2px 2px#1f24217c;
+    text-shadow: 2px 2px 2px#1f2421a4;
 }
 
 
 .logo {
+    justify-self: flex-end;
     width: 120px;
     transform:
       rotateX(1deg)

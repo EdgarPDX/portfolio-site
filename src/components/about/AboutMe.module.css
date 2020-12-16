@@ -1,25 +1,37 @@
-.introduction {
+.aboutMe{
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    color: white;
-    background-color:#216869 ;
-    border-radius: 45%;
-    width: 90%;
-    box-shadow: 5px 10px #9cc5a1;
-    font-family: congenial, sans-serif;
-    font-weight: 900;
+    grid-template-rows: .5fr 2fr;
+    max-width: 80%;
+}
+.introduction {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color:white;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
     font-style: normal;
-
+    font-size: 1.25em;
+}
+.introductionContent{
+    align-self: center;
 }
 
-.AboutMe{
-    border-radius: 10%;
-    margin: 2%;
+
+.profilePhoto{
+    border-radius: 20%;
+    justify-self: flex-end;
+    box-shadow:
+    2px 1px 0 1px #f9f9fb,
+    14px 14px 14px 0  rgba(0, 0, 0, 0.486);
 }
 
 .heading{
-    font-family: aw-conqueror-carved, sans-serif;
-    font-weight:400;
-    font-size: 3.5em;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
     font-style: normal;
+    font-size: 4em;
+    justify-self: flex-start;
+    color: white;
+    text-shadow: 2px 2px 1px#1f2421af;
 }
