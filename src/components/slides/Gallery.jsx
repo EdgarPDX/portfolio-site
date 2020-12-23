@@ -23,7 +23,9 @@ const handleRight = () => {
     <div className={styles.gallery}>
       <h1 className={styles.heading}>GALLERY</h1>
       <div className={styles.imageContainer}>
-       <img className={styles.galleryImage} src={images[imageSub]} alt="gallery"/>
+        <div className={styles.imageFrame}>
+          <img className={styles.galleryImage} src={images[imageSub]} alt="gallery"/>
+        </div>
        <div className={styles.buttonContainer}>
          <button className={styles.button} onClick={handleLeft}>&#129152;</button>
         <button className={styles.button} onClick={handleRight}>&#129154;</button>
