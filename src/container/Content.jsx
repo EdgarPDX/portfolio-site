@@ -3,6 +3,7 @@ import styles from './Content.module.css';
 import AboutMe from '../components/about/AboutMe'
 import Projects from '../components/projects/Projects'
 import Gallery from '../components/slides/Gallery'
+import Contact from '../components/contact/Contact';
 
 export const Content = () => {
  
@@ -11,6 +12,7 @@ export const Content = () => {
             <AboutMe />
             <Projects />
             <Gallery />
+            <Contact />
         </div>
     )
 }
