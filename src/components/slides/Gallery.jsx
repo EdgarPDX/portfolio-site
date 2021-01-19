@@ -20,7 +20,7 @@ const handleRight = () => {
 }
 
   return (
-    <div className={styles.gallery}>
+    <div id ='gallery'className={styles.gallery}>
       <h1 className={styles.heading}>GALLERY</h1>
       <div className={styles.imageContainer}>
         <div className={styles.imageFrame}>

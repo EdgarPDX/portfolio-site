@@ -63,3 +63,7 @@
     filter: saturate(130%) contrast(110%) drop-shadow(24px 20px 16px);
 }
 
+a{
+    text-decoration: none;
+}
+

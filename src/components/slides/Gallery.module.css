@@ -4,11 +4,11 @@
     display:grid;
     grid-template-rows: .5fr 3fr;
     text-align: center;
+    align-content: center;
 }
 .imageFrame{
     height: 500px;
     width:800px;
-    align-items: center;
     background-color: rgba(0, 0, 0, 0.548);
 }
 
@@ -23,7 +23,6 @@
 
 .imageContainer{
     width: 100%;
-    align-items: center;
     display:grid;
     grid-template-rows: 4fr .5fr;  
     justify-content: center;
@@ -36,8 +35,7 @@
 }
 
 .galleryImage{
-    height:90%;
-    align-self: center;
+    height:100%;
 }
 .button{
     height:20px;

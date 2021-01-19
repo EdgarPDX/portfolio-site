@@ -7,7 +7,7 @@ import Alchemy from '../../assets/images/alchemy.PNG'
 export const Projects = () => {
 
     return(
-        <div className={styles.projects}>
+        <div id='projects'className={styles.projects}>
             <h1 className={styles.heading}>PROJECTS</h1>
             <article className={styles.projectArticle}>
                 <h3>SPOT THAT TUNE</h3>
