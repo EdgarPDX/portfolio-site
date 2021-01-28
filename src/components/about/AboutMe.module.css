@@ -1,6 +1,6 @@
 .aboutMe{
     display: grid;
-    grid-template-rows: .5fr 2fr;
+    /* grid-template-rows: .5fr 2fr; */
     max-width: 80%;
 }
 .introduction {
@@ -37,6 +37,6 @@
     justify-self: flex-start;
     color: white;
     text-shadow: 2px 2px 1px#1f2421af;
-    margin: 0%;
-    padding: 0%;
+    margin-top: 0%;
+
 }
