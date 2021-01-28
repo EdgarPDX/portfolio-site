@@ -40,6 +40,7 @@ export const Projects = () => {
                     <img src={Cook} className={styles.screenshot}alt='project screenshot'/>
                     <div className={styles.content}>
                         <p className={styles.projectDescription}>Full stack meal planning application using the Spoontacular API. Application was built in a 4 day sprint.</p>
+                        <p>Tech Used: REACT, NODE, CSS, Express, PostgreSQL</p>
 
                         <div className={styles.projectLinks}>
                         <a
@@ -64,7 +65,8 @@ export const Projects = () => {
                 <div className={styles.article}>
                     <img src={Alchemy} className={styles.screenshot}alt='project screenshot'/>
                     <div className={styles.content}>
-                        <p className={styles.projectDescription}>Web application for students and alumni of Alchemy Code Lab to post projects and look for potential collaborators on new projects.</p>
+                        <p className={styles.projectDescription}>Alchemy Networkr is a community of students and alumni of Alchemy Code Lab. Here users can post, view deployment, view source code and comment on past projects. </p>
+                        <p>Tech Used: PUG JS, NODE, CSS, Express, PostgreSQL</p>
 
                         <div className={styles.projectLinks}>
                         <a
