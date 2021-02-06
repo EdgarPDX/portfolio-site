@@ -19,6 +19,8 @@
 
 
 .profilePhoto{
+    margin: 10px;
+    border-radius: 20%;
     float: right;
     mask-image: url(../../assets/images/mask.png);
     -webkit-mask-image: url(/src/assets/images/mask.png);
