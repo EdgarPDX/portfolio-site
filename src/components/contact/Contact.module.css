@@ -1,0 +1,18 @@
+.contactDiv{
+    width: 80%;
+    justify-content: center;
+}
+
+.heading{
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 1px#1f2421af;
+}
+
+.line{
+    border: 2px solid rgb(255, 255, 255);
+    width: 50%;
+}
