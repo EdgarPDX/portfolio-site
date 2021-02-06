@@ -1,6 +1,6 @@
 .aboutMe{
     display: grid;
-    grid-template-rows: .5fr 2fr;
+    /* grid-template-rows: .5fr 2fr; */
     max-width: 80%;
 }
 .introduction {
@@ -19,9 +19,16 @@
 
 
 .profilePhoto{
+<<<<<<< HEAD
     width: 300px;
     margin: 10px;
     border-radius: 20%;
+=======
+    float: right;
+    mask-image: url(../../assets/images/mask.png);
+    -webkit-mask-image: url(/src/assets/images/mask.png);
+
+>>>>>>> 05f0dfbd4c1840912b5001620bb40f7e2149522a
     justify-self: flex-end;
     box-shadow:
     2px 1px 0 1px #f9f9fb,
@@ -36,4 +43,6 @@
     justify-self: flex-start;
     color: white;
     text-shadow: 2px 2px 1px#1f2421af;
+    margin-top: 0%;
+
 }
