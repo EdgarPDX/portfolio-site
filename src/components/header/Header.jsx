@@ -8,7 +8,6 @@ export const Header = () => {
             <div className={styles.allLinks}>
                 <a href='#about-me'className={styles.link}>ABOUT ME</a>
                 <a href='#projects' className={styles.link}>PROJECTS</a>
-                <a href='#resume' className={styles.link}>RESUME</a>
                 <a href='#gallery'className={styles.link}>GALLERY</a>
                 <a href='#contact'className={styles.link}>CONTACT ME</a>
             </div>
