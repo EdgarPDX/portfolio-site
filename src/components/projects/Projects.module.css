@@ -17,6 +17,10 @@
     font-style: normal;
     font-size: 1.25em;
 }
+.projectDescription{
+    font-size: 2em;
+    margin-top: 0%;
+}
 
 .content{
     display: grid;

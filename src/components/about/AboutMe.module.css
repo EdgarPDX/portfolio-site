@@ -11,7 +11,7 @@
     font-family: mostra-nuova, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 .introductionContent{
     align-self: center;
@@ -19,6 +19,8 @@
 
 
 .profilePhoto{
+    margin: 10px;
+    border-radius: 20%;
     float: right;
     mask-image: url(../../assets/images/mask.png);
     -webkit-mask-image: url(/src/assets/images/mask.png);
