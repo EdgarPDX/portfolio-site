@@ -26,6 +26,7 @@
     -webkit-mask-image: url(/src/assets/images/mask.png);
 
     justify-self: flex-end;
+    filter: saturate(100%) contrast(100%) drop-shadow(20px 25px 12px);
     box-shadow:
     2px 1px 0 1px #f9f9fb,
     14px 14px 14px 0  rgba(0, 0, 0, 0.486);

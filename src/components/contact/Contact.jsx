@@ -23,7 +23,7 @@ export const Contact = () => {
             <hr className={styles.line}></hr>
         
 
-        <form className={styles.contact_form} onSubmit={sendEmail}>
+        <form id='contact'className={styles.contact_form} onSubmit={sendEmail}>
             <div className={styles.first_inputs}>
                 <label className={styles.labels}>NAME: </label>
                     <input className={styles.inputs} type="text" name="name" />

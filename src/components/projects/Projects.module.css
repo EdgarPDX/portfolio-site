@@ -42,9 +42,8 @@
     border-radius: 5%;
     height: auto;
     width: 400px;
-    box-shadow:
-    2px 1px 0 1px #f9f9fb,
-    14px 14px 14px 0  rgba(0, 0, 0, 0.486);
+    color: black;
+    filter: drop-shadow(10px 10px 12px);
 }
 
 .projectLinks{
