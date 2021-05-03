@@ -1,12 +1,18 @@
 import React from 'react';
 import styles from './AboutMe.module.css';
+import {Spring} from 'react-spring/renderprops'
 import headShot from '../../assets/images/profile-pic.jpg'
 
 export const AboutMe = () => {
  
     return (
         <div id='about-me' className={styles.aboutMe}>
-        <article className={styles.introduction}>
+            <Spring
+            from={{ opacity: 0 }}
+            to={{ opacity: 1 }}
+            config={{duration:1000, delay: 500}}
+            >
+                {props =><article style={props} className={styles.introduction}>
             <div className={styles.introductionContent}>
             <h1 className={styles.heading}>EDGAR CUELLAR</h1>
                 <p>Hey! My Name is Edgar Cuellar. I am full stack software developer with
@@ -20,7 +26,9 @@ export const AboutMe = () => {
             </div>
             <img className={styles.profilePhoto} src={headShot} alt='headshot'/>
                           
-        </article>
+        </article> }
+            </Spring>
+        
         </div>
     )
 }
