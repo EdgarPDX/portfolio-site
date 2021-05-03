@@ -1,70 +1,65 @@
-.projects{
-    display:grid;
-    grid-template-rows: .5fr 2fr;
-    max-width: 80%;
+.projects {
+  display: grid;
+  grid-template-rows: 0.5fr 2fr;
+  max-width: 80%;
 }
-.article{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
+.article {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
-.projectArticle{
-    width: 100%;
-    display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
-    color:white;
-    font-family: mostra-nuova, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 1.25em;
+.projectArticle {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  color: white;
+  font-family: mostra-nuova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.25em;
 }
-.projectDescription{
-    font-size: 2em;
-    margin-top: 0%;
-}
-
-.content{
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-}
-.heading{
-    font-family: mostra-nuova, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 3em;
-    justify-self: flex-start;
-    color: white;
-    text-shadow: 2px 2px 1px#1f2421af;
+.projectDescription {
+  font-size: 2em;
+  margin-top: 0%;
 }
 
-
-.screenshot{
-    margin-right: 3%;
-    border-radius: 5%;
-    height: auto;
-    width: 400px;
-    color: black;
-    filter: drop-shadow(10px 10px 12px);
+.content {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+}
+.heading {
+  font-family: mostra-nuova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  justify-self: flex-start;
+  color: white;
+  text-shadow: 2px 2px 1px#1f2421af;
 }
 
-.projectLinks{
-    display: flex;
-    justify-content: space-around;
-    
+.screenshot {
+  margin-right: 5%;
+  border-radius: 5%;
+  height: auto;
+  width: 400px;
+  color: black;
+  filter: drop-shadow(10px 10px 12px);
 }
-.links{
-    color:white;
-    font-family: congenial, sans-serif;
-    font-weight: 900;
-    font-style: normal;;
-    text-decoration: none;
-    text-shadow: 2px 2px 1px#1f2421af;
-    transition:
-      .2s ease-in-out transform,
-      .2s ease-in-out
-      text-shadow;
+
+.projectLinks {
+  display: flex;
+  justify-content: space-around;
 }
-.links:hover{
-    color:white;
-    transform:scale(1.05);
-    text-shadow: 2px 2px 2px#1f2421a4;
+.links {
+  color: white;
+  font-family: congenial, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+  text-shadow: 2px 2px 1px#1f2421af;
+  transition: 0.2s ease-in-out transform, 0.2s ease-in-out text-shadow;
+}
+.links:hover {
+  color: white;
+  transform: scale(1.05);
+  text-shadow: 2px 2px 2px#1f2421a4;
 }

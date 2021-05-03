@@ -1,7 +1,5 @@
-body{
+body {
   background-image: url(../../assets/images/background.jpg);
   background-repeat: no-repeat;
- 
+  width: 100%;
 }
-
-
