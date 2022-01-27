@@ -1,14 +1,25 @@
-.outsideLink{
-    height:40px;
-    width: auto;
-    filter:drop-shadow(4px 4px 8px);
-    color:#1f2421;
-    text-align: center;
-
+.footerComponent {
+  display: flex;
+  height: auto;
+  width: 40%;
+  justify-content: flex-start;
+  transform-origin: 10px 40px;
+  transform: rotate(-270deg);
+  position: absolute;
+  top: 0;
+  border-top: #1f2421 4px solid;
 }
 
-.footerComponent{
-    display: flex;
-    justify-content: center;
-    
+.footerLinks {
+  text-decoration: none;
+  color: #1f2421;
+  font-family: mostra-nuova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5vw;
+  padding-right: 10px;
+}
+
+.footerLinks:hover {
+  color: #1f2421;
 }

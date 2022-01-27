@@ -18,25 +18,19 @@ export const Contact = () => {
       }
  
     return (
-        <>
+        <div className={styles.contactContainer}>
             <h1 className={styles.heading}>CONTACT ME</h1>
-            <hr className={styles.line}></hr>
-        
-
-        <form id='contact'className={styles.contact_form} onSubmit={sendEmail}>
-            <div className={styles.first_inputs}>
-                <label className={styles.labels}>NAME: </label>
-                    <input className={styles.inputs} type="text" name="name" />
-                <label className={styles.labels}>SUBJECT: </label>
-                    <input className={styles.inputs} type="text" name="subject" />
-                <label className={styles.labels}>EMAIL: </label>
-                    <input className={styles.inputs}  type="email" name="contact_email" />
-            </div>
-            <label className={styles.labels}>MESSAGE: </label>
-                <textarea className={styles.message} name="message"/>
-            <input className={styles.submit} type="submit" value="Send" />
-    </form>
-        </>
+            <form id='contact'className={styles.contact_form} onSubmit={sendEmail}>
+                <div className={styles.first_inputs}>
+                    <input className={styles.inputs} type="text" name="name" placeholder='Name..'/>
+                    <input className={styles.inputs} type="text" name="subject" placeholder='Subject..'/>
+                    <input className={styles.inputs}  type="email" name="contact_email" placeholder='Email..'/>
+                </div>
+                    
+                    <textarea className={styles.message} name="message" placeholder='Your message...'/>
+                    <input className={styles.submit} type="submit" value="Send" />
+            </form>
+        </div>
     )
 }
 

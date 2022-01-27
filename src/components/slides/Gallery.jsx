@@ -1,39 +1,109 @@
-import React, {useState} from 'react';
+import React from 'react';
 import styles from './Gallery.module.css';
-import images from '../../assets/gallery/GalleryImages'
+import images from '../../assets/gallery/GalleryImages';
+import { Carousel, Image } from 'react-bootstrap';
 
 
 export const Gallery = () => {
-const [imageSub, setImage] = useState(0);
 
-const handleLeft = () => {
-  if(imageSub > 0 ){
-    setImage(imageSub - 1)
-  }
-};
 
-const handleRight = () => {
-  if(imageSub < images.length -1){
-  setImage(imageSub + 1)
-}
-    
-}
+const oldGallery =  (<div id ='gallery'className={styles.gallery}>
+<h1 className={styles.heading}>GALLERY</h1>
+<div className={styles.imageContainer}>
+
+  <Carousel fade>
+    <Carousel.Item>
+      <Image
+        
+        className={styles.img}
+        src={images[0]}
+        alt="First slide"
+        fluid
+      />
+      <Carousel.Caption>
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Image
+        
+        className={styles.img}
+        src={images[1]}
+        alt="Second slide"
+        fluid
+      />
+  
+      <Carousel.Caption>
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Image
+        
+        className={styles.img}
+        src={images[2]}
+        alt="Third slide"
+        fluid
+      />
+  
+      <Carousel.Caption>
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Image
+        
+        className={styles.img}
+        src={images[3]}
+        alt="Third slide"
+        fluid
+      />
+  
+      <Carousel.Caption>
+        <h3>fourth slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Image
+        
+        className={styles.img}
+        src={images[4]}
+        alt="Third slide"
+        fluid
+      />
+  
+      <Carousel.Caption>
+        <h3>fourth slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+    <Carousel.Item>
+      <Image
+        
+        className={styles.img}
+        src={images[5]}
+        alt="Third slide"
+        fluid
+      />
+  
+      <Carousel.Caption>
+        <h3>fourth slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  </Carousel>
+  
+</div>
+
+
+</div>)
 
   return (
-    <div id ='gallery'className={styles.gallery}>
-      <h1 className={styles.heading}>GALLERY</h1>
-      <div className={styles.imageContainer}>
-        <div className={styles.imageFrame}>
-          <img className={styles.galleryImage} src={images[imageSub]} alt="gallery"/>
-        </div>
-       <div className={styles.buttonContainer}>
-         <button className={styles.button} onClick={handleLeft}>&#129152;</button>
-        <button className={styles.button} onClick={handleRight}>&#129154;</button>
-       </div>
-        
-      </div>
-    </div>
-    
+    oldGallery
   )
 }
 

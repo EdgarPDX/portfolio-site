@@ -1,16 +1,26 @@
 import './App.css';
-import Header from '../header/Header'
-import Content from '../../container/Content'
-import Footer from '../footer/Footer'
-import { Container } from 'react-bootstrap';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom';
+import AboutMe from '../about/AboutMe';
+import Projects from '../projects/Projects';
+import Contact from '../contact/Contact';
+import Footer from '../footer/Footer';
 
 function App() {
   return (
-    <Container>
-      <Header />
-      <Content />
-      <Footer />
-    </Container>
+    <div className="main-div">  
+      <Router>
+        <Switch>
+          <Route exact path="/" component={AboutMe}/>
+          <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/contact" component={Contact}/>
+        </Switch>
+      </Router> 
+      <Footer />   
+    </div>
   );
 }
 
