@@ -1,56 +1,45 @@
-.gallery{
-    height: 80%;
-    width: 80%;
-    display:grid;
-    grid-template-rows: .5fr 3fr;
-    text-align: center;
-    align-content: center;
+.gallery {
+  width: 100%;
+  display: grid;
+  text-align: center;
+  justify-content: center;
 }
-.imageFrame{
-    height: 500px;
-    width:800px;
-    background-color: rgba(0, 0, 0, 0.548);
+.imageFrame {
+  height: 70vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.548);
 }
 
-.heading{
-    justify-self: flex-start;
-    font-family: mostra-nuova, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 3em;
-    color: white;
+.heading {
+  justify-self: flex-start;
+  font-family: mostra-nuova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3em;
+  color: white;
 }
 
-.imageContainer{
-    width: 100%;
-    display:grid;
-    grid-template-rows: 4fr .5fr;  
-    justify-content: center;
-}
-.buttonContainer{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+.imageContainer {
+  width: 50vw;
+  height: 50vh;
+  display: grid;
+  justify-content: center;
 }
 
-.galleryImage{
-    height:100%;
+.button {
+  height: 20px;
+  width: 30px;
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: none;
+  text-shadow: 2px 2px 1px#1f2421af;
+  outline: none;
+  transition: 0.2s;
 }
-.button{
-    height:20px;
-    width: 30px;
-    text-align: center;
-    background: transparent;
-    color:white;
-    border:none;
-    text-shadow: 2px 2px 1px#1f2421af;
-    outline: none;
-    transition:.2s;
-}
-.button:hover{
-    transform:scale(1.5)
+.button:hover {
+  transform: scale(1.5);
 }
 .button:active {
-    transform:scale(2);
+  transform: scale(2);
 }
