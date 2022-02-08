@@ -7,6 +7,7 @@
   transform: rotate(-270deg);
   position: absolute;
   top: 0;
+  margin-left: 1%;
   border-top: #1f2421 4px solid;
 }
 
@@ -17,7 +18,7 @@
   font-weight: 500;
   font-style: normal;
   font-size: 1.5vw;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 
 .footerLinks:hover {
