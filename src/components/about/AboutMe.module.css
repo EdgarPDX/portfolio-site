@@ -127,3 +127,140 @@
   font-size: 4vw;
   color: #30321c;
 }
+
+
+@media only screen and (max-width: 768px){
+
+  .aboutMe {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+  .introduction {
+    color: whitesmoke;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vw;
+  }
+  
+  .welcomeMessage {
+    color: rgb(93, 93, 93);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+  }
+  
+  .welcomeHeading {
+    color: rgb(93, 93, 93);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 4vw;
+    
+  }
+  
+  .aboutMeMessage {
+    display: flex;
+    flex-direction: column;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .5em;
+    color: rgb(136, 136, 136);
+    height: 90vh;
+    width: 100%;
+  
+    justify-content: space-around;
+    align-items: center;
+  
+    transition: 1s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
+    text-align: center;
+  }
+  .nextButton {
+    animation: pulse-animation 1.5s infinite;
+    background: transparent;
+    border: rgb(255, 255, 255) 4px solid;
+    border-radius: 10px;
+    width: 40vw;
+    color: rgb(255, 255, 255);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10vw;
+  }
+  .nextButton2 {
+    animation: pulse-animation 1.5s infinite;
+    background: transparent;
+    border: rgb(93, 93, 93) 4px solid;
+    border-radius: 10px;
+    width: 30vw;
+    color: rgb(93, 93, 93);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+    justify-self: center;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(93, 93, 93, 0.466);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+  }
+  
+  .heading_intro {
+    display: grid;
+    width: 80%;
+    z-index: 3;
+    justify-self: flex-end;
+    align-self:flex-end;
+    margin-bottom: 15%;
+    color: white;
+  }
+  
+  .img_heading {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profilePhoto {
+    
+    height: 100vh;
+    z-index: 1;
+    transform: scaleX(1);
+    transition: 2s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    /* mask-image: url(../../assets/images/mask.png);
+    mask-size: cover;
+    -webkit-mask-image: url(/src/assets/images/mask.png); */
+  }
+  
+  .heading {
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 7vw;
+    color: #ffffff;
+    border-bottom: solid 10px #30321c;
+    width: 70vw;
+  }
+  
+  .heading2 {
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10vw;
+    color: #ffffff;
+  }
+
+
+}

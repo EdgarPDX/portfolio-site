@@ -92,3 +92,107 @@
 .labels {
   margin-top: 10px;
 }
+
+
+@media only screen and (max-width: 768px){
+ 
+  .contactContainer {
+    display: grid;
+    grid-template-rows: 1fr 4.2fr;
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .heading {
+    border-bottom: solid 10px #30321c;
+    font-family: mostra-nuova, 
+    sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10vw;
+    color: #30321c;
+    width: 100%;
+    margin-top: 10vw;
+    height: fit-content;
+  }
+  
+  .contact_form {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-self: center;
+    height: 50vh;
+    width: 90vw;
+    display: grid;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .message {
+    display: flex;
+    background: transparent;
+    justify-self: center;
+    width: 70vw;
+    border: none;
+    height: fit-content;
+    resize: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .first_inputs {
+    width: 70vw;
+    height: fit-content;
+    display: grid;
+  
+    justify-self: center;
+  }
+  
+  .inputs {
+    background: transparent;
+    border: none;
+    outline: none;
+    caret-color: black;
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6vw;
+    color: #30321c;
+  }
+  
+  .submit {
+    border-radius: 10px;
+    animation: pulse-animation 1.5s infinite;
+    border: 2px solid rgb(0, 0, 0);
+    justify-self: center;
+    align-self: center;
+    width: 40vw;
+    height: fit-content;
+    background: transparent;
+    font-size: 7vw;
+    color: rgb(0, 0, 0);
+    font-family: mostra-nuova, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(93, 93, 93, 0.466);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+  }
+  
+  .labels {
+    margin-top: 10px;
+  }
+
+}

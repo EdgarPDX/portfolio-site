@@ -35,7 +35,7 @@ export const Projects = () => {
 
     return(
         <div id='projects'className={styles.projects}>
-            <h1 className={styles.heading}>PROJECTS</h1>
+            <div className={styles.heading}>PROJECTS</div>
             <button onClick={handleClick}className={styles.nextButton}>Next</button>      
             <Project clipPath={clipPath} project={projects[mouseClicks]} />
         </div>

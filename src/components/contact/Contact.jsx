@@ -19,7 +19,7 @@ export const Contact = () => {
  
     return (
         <div className={styles.contactContainer}>
-            <h1 className={styles.heading}>CONTACT ME</h1>
+            <div className={styles.heading}>CONTACT ME</div>
             <form id='contact'className={styles.contact_form} onSubmit={sendEmail}>
                 <div className={styles.first_inputs}>
                     <input className={styles.inputs} type="text" name="name" placeholder='Name..'/>
